@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "FirstTabBarTableViewController.h"
 
 @interface RootViewController ()
 
@@ -25,7 +26,7 @@
     NSMutableArray *tabBarControllers = [NSMutableArray new];
     
     
-    UIViewController *firstView = [UIViewController new];
+    FirstTabBarTableViewController *firstView = [FirstTabBarTableViewController new];
     firstView.view.backgroundColor = [UIColor greenColor];
     firstView.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"" image:[UIImage systemImageNamed:@"house"] selectedImage:[UIImage systemImageNamed:@"house.fill"]];
     //paperplane.fill

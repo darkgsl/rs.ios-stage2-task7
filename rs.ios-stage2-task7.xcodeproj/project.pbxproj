@@ -14,9 +14,9 @@
 		D689C7DC24C0CFCE00419EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D689C7DB24C0CFCE00419EDE /* Assets.xcassets */; };
 		D689C7DF24C0CFCE00419EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D689C7DD24C0CFCE00419EDE /* LaunchScreen.storyboard */; };
 		D689C7E224C0CFCE00419EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D689C7E124C0CFCE00419EDE /* main.m */; };
-		D689C7EB24C0D06800419EDE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D689C7E924C0D06800419EDE /* MainViewController.m */; };
-		D689C7EC24C0D06800419EDE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D689C7EA24C0D06800419EDE /* MainViewController.xib */; };
 		D689C7F624C0D1C600419EDE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D689C7F524C0D1C600419EDE /* RootViewController.m */; };
+		D6C3A46924C17970004E495A /* FirstTabBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C3A46724C17970004E495A /* FirstTabBarTableViewController.m */; };
+		D6C3A46A24C17970004E495A /* FirstTabBarTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C3A46824C17970004E495A /* FirstTabBarTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,11 +32,11 @@
 		D689C7DE24C0CFCE00419EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D689C7E024C0CFCE00419EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D689C7E124C0CFCE00419EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D689C7E824C0D06800419EDE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		D689C7E924C0D06800419EDE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		D689C7EA24C0D06800419EDE /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		D689C7F424C0D1C600419EDE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		D689C7F524C0D1C600419EDE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D6C3A46624C17970004E495A /* FirstTabBarTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTabBarTableViewController.h; sourceTree = "<group>"; };
+		D6C3A46724C17970004E495A /* FirstTabBarTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTabBarTableViewController.m; sourceTree = "<group>"; };
+		D6C3A46824C17970004E495A /* FirstTabBarTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstTabBarTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +86,9 @@
 			children = (
 				D689C7F424C0D1C600419EDE /* RootViewController.h */,
 				D689C7F524C0D1C600419EDE /* RootViewController.m */,
-				D689C7E824C0D06800419EDE /* MainViewController.h */,
-				D689C7E924C0D06800419EDE /* MainViewController.m */,
-				D689C7EA24C0D06800419EDE /* MainViewController.xib */,
+				D6C3A46624C17970004E495A /* FirstTabBarTableViewController.h */,
+				D6C3A46724C17970004E495A /* FirstTabBarTableViewController.m */,
+				D6C3A46824C17970004E495A /* FirstTabBarTableViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -164,8 +164,8 @@
 			files = (
 				D689C7DF24C0CFCE00419EDE /* LaunchScreen.storyboard in Resources */,
 				D689C7DC24C0CFCE00419EDE /* Assets.xcassets in Resources */,
+				D6C3A46A24C17970004E495A /* FirstTabBarTableViewController.xib in Resources */,
 				D689C7DA24C0CFC900419EDE /* Main.storyboard in Resources */,
-				D689C7EC24C0D06800419EDE /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,11 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C3A46924C17970004E495A /* FirstTabBarTableViewController.m in Sources */,
 				D689C7D724C0CFC800419EDE /* ViewController.m in Sources */,
 				D689C7D124C0CFC800419EDE /* AppDelegate.m in Sources */,
 				D689C7F624C0D1C600419EDE /* RootViewController.m in Sources */,
 				D689C7E224C0CFCE00419EDE /* main.m in Sources */,
-				D689C7EB24C0D06800419EDE /* MainViewController.m in Sources */,
 				D689C7D424C0CFC800419EDE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
